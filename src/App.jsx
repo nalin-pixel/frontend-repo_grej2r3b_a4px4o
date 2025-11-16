@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import WorkGrid from './components/WorkGrid'
+import Marquee from './components/Marquee'
+import CaseStudyTeaser from './components/CaseStudyTeaser'
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Marquee text="Strategy • 3D • WebGL • Motion • Brand • Product • Experience •" />
         <About />
+        <CaseStudyTeaser />
         <WorkGrid />
         <footer id="contact" className="mx-auto max-w-6xl px-6 py-16 text-white/70">
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
